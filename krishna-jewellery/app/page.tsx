@@ -115,7 +115,7 @@ export default function Home() {
             <h1 className="font-serif text-5xl md:text-7xl leading-tight mb-7">
               Jewellery That
               <br />
-              Tells Your Story
+              <blockquote>Tells Your Story</blockquote>
             </h1>
 
             <p className="text-gray-200 text-base md:text-lg leading-8 mb-9 max-w-md">
@@ -127,7 +127,7 @@ export default function Home() {
               href="#collections"
               className="inline-block bg-[#b8955b] hover:bg-[#98743e] text-white px-9 py-4 text-xs tracking-[3px] transition"
             >
-              EXPLORE COLLECTION
+              <a>EXPLORE COLLECTION</a>
             </a>
           </div>
         </div>
@@ -368,8 +368,8 @@ export default function Home() {
             <h3 className="font-serif text-xl mb-6">Contact Us</h3>
             <div className="flex flex-col gap-4 text-sm text-gray-400">
               <p>Krishna Jewellery</p>
-              <p>Email: krishnajewellery@gmail.com</p>
-              <p>Phone: +91 XXXXX XXXXX</p>
+              <a href="mailto:krishnajewellery@gmail.com">Email: krishnajewellery@gmail.com</a>
+              <a href="tel:+919737775782">Phone: +91 97377 75782</a>
               <p>Ahmedabad, Gujarat</p>
             </div>
           </div>
